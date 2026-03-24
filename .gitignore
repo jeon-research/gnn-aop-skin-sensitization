@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data (large files)
+data/raw/
+data/external/
+data/processed/*.csv
+!data/processed/causal_aop_comprehensive_v6.csv
+
+# Results (model checkpoints)
+results/**/*.pt
+results/**/*.pkl
+
+# OS
+.DS_Store
+Thumbs.db
