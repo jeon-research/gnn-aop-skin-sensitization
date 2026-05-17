@@ -1,0 +1,8 @@
+{
+  "description": "Seed manifest for the LLNA-primary experiments. Twenty seeds are reported jointly in the classification metrics; a 10-seed primary set is used for the headline alignment, shuffle-control, and per-mechanism analyses, with the remaining 10 seeds reported alongside as an extended sensitivity set.",
+  "source": "src/explain/utils.py::ALL_SEEDS",
+  "primary": [42, 123, 456, 789, 1024, 2048, 3141, 4096, 5555, 7777],
+  "sensitivity": [1111, 2222, 3333, 4444, 6666, 8888, 9999, 1234, 5678, 9876],
+  "all": [42, 123, 456, 789, 1024, 2048, 3141, 4096, 5555, 7777,
+          1111, 2222, 3333, 4444, 6666, 8888, 9999, 1234, 5678, 9876]
+}
